@@ -26,23 +26,7 @@ function moveCar(id, keyEvent) {
   let marginPx = window.getComputedStyle(car).marginLeft;
   let currMargin = parseInt(marginPx.substr(0, marginPx.length - 2));
   let updatedMargin = parseInt(currMargin + 5) + "px";
-  // console.log(updatedMargin);
   car.style.marginLeft = updatedMargin;
-  // console.log(car.style.marginLeft);
-  // console.log(margin);
-  // car.racer.marginLeft += 20;
-  // console.log("car pressed");
-  //
-  // car1.style.marginLeft = margin;
+
 
 }
-
-// function gas(key) {
-//   if (key === 'p') {
-//     console.log('blue');
-//   } else if (key === 'q') {
-//     console.log('red');
-//   } else {
-//     console.log('Wrong key, dummy!');
-//   }
-// }
